@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/8/3 14:18:25。
+     1>项目“F:\visual studio 2013\Bank\Bank\Bank.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Bank.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AddCustomer.cpp
+         AddCustomer.cpp
+     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(37): error C2039: “OnBnClickedCancel”: 不是“CAddCustomer”的成员
+                 f:\visual studio 2013\bank\bank\addcustomer.h(6) : 参见“CAddCustomer”的声明
+     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(37): error C2065: “OnBnClickedCancel”: 未声明的标识符
+     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(117): error C2039: “OnBnClickedCancel”: 不是“CAddCustomer”的成员
+                 f:\visual studio 2013\bank\bank\addcustomer.h(6) : 参见“CAddCustomer”的声明
+     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(120): error C2248: “CDialog::OnCancel”: 无法访问 protected 成员(在“CDialog”类中声明)
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3322) : 参见“CDialog::OnCancel”的声明
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3272) : 参见“CDialog”的声明
+     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(120): error C2352: “CDialog::OnCancel”: 非静态成员函数的非法调用
+                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3322) : 参见“CDialog::OnCancel”的声明
+     1>已完成生成项目“F:\visual studio 2013\Bank\Bank\Bank.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.81
