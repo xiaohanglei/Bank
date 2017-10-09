@@ -18,4 +18,6 @@ protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
 	DECLARE_MESSAGE_MAP()
+	//fadsjkfadsfadfdadf
+	//分手分手非师范而是
 };
