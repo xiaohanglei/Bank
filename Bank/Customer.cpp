@@ -64,6 +64,8 @@ char * CCustomer:: Get_id()
 char * CCustomer:: Get_name() 
 {
 	return m_name;
+	
+	//获得名字
 }
 int CCustomer:: Get_sex() 
 {
