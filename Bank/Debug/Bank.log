@@ -1,20 +1,44 @@
-﻿生成启动时间为 2017/8/3 14:18:25。
-     1>项目“F:\visual studio 2013\Bank\Bank\Bank.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2017/10/9 17:33:53。
+     1>项目“F:\github\Bank\Bank\Bank.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Bank.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AddCustomer.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _USE_32BIT_TIME_T /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Bank.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D _DEBUG /D _USE_32BIT_TIME_T /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Bank.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt AddCustomer.cpp Bank.cpp BankDlg.cpp BanLiKa.cpp Card.cpp Carddao.cpp Customer.cpp CustomerDao.cpp GuanYu.cpp Staff.cpp StaffDao.cpp Tookit.cpp ZhuJieMian_dlg.cpp
+         ZhuJieMian_dlg.cpp
+         Tookit.cpp
+         StaffDao.cpp
+         Staff.cpp
+         GuanYu.cpp
+         CustomerDao.cpp
+         Customer.cpp
+         Carddao.cpp
+         Card.cpp
+         BanLiKa.cpp
+         BankDlg.cpp
+         Bank.cpp
          AddCustomer.cpp
-     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(37): error C2039: “OnBnClickedCancel”: 不是“CAddCustomer”的成员
-                 f:\visual studio 2013\bank\bank\addcustomer.h(6) : 参见“CAddCustomer”的声明
-     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(37): error C2065: “OnBnClickedCancel”: 未声明的标识符
-     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(117): error C2039: “OnBnClickedCancel”: 不是“CAddCustomer”的成员
-                 f:\visual studio 2013\bank\bank\addcustomer.h(6) : 参见“CAddCustomer”的声明
-     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(120): error C2248: “CDialog::OnCancel”: 无法访问 protected 成员(在“CDialog”类中声明)
-                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3322) : 参见“CDialog::OnCancel”的声明
-                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3272) : 参见“CDialog”的声明
-     1>f:\visual studio 2013\bank\bank\addcustomer.cpp(120): error C2352: “CDialog::OnCancel”: 非静态成员函数的非法调用
-                 e:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afxwin.h(3322) : 参见“CDialog::OnCancel”的声明
-     1>已完成生成项目“F:\visual studio 2013\Bank\Bank\Bank.vcxproj”(Build 个目标)的操作 - 失败。
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\github\Bank\Bank\Debug\Bank.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\github\Bank\Bank\Debug\Bank.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\github\Bank\Bank\Debug\Bank.lib" /MACHINE:X86 Debug\Bank.res
+         Debug\AddCustomer.obj
+         Debug\Bank.obj
+         Debug\BankDlg.obj
+         Debug\BanLiKa.obj
+         Debug\Card.obj
+         Debug\Carddao.obj
+         Debug\Customer.obj
+         Debug\CustomerDao.obj
+         Debug\GuanYu.obj
+         Debug\Staff.obj
+         Debug\StaffDao.obj
+         Debug\stdafx.obj
+         Debug\Tookit.obj
+         Debug\ZhuJieMian_dlg.obj
+         Bank.vcxproj -> F:\github\Bank\Bank\Debug\Bank.exe
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"F:\github\Bank\Bank\Debug\Bank.bsc" /n Debug\AddCustomer.sbr Debug\Bank.sbr Debug\BankDlg.sbr Debug\BanLiKa.sbr Debug\Card.sbr Debug\Carddao.sbr Debug\Customer.sbr Debug\CustomerDao.sbr Debug\GuanYu.sbr Debug\Staff.sbr Debug\StaffDao.sbr Debug\stdafx.sbr Debug\Tookit.sbr Debug\ZhuJieMian_dlg.sbr
+     1>已完成生成项目“F:\github\Bank\Bank\Bank.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.81
+已用时间 00:00:08.53
